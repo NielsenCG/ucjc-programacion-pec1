@@ -2,9 +2,9 @@ package edu.ucjc.programacion.pec1.NielsenCasado;
 
 public class Colegio {
 	
-	private String nombre;
-	private String direccion;
-	private Aula aulas;
+	private String nombre; // Nombre de la clase
+	private String direccion; // Dirección donde se encuentra la clase
+	private Aula aulas; // Objeto Aula nombrado como aulas
 	
 	// Constructor
 	public Colegio(String nombre, String direccion, Aula aulas) {
@@ -39,6 +39,11 @@ public class Colegio {
 		this.aulas = aulas;
 	}
 	
+	/* Función que se utiliza para asignar un asiento a cada alumno.
+	 * En caso de estar ocupado este asiento, pondra el asiento que está ocupado y pasará al siguiente
+	 *  
+	 * @param Un array de una dimensión de la clase Alumno
+	 */
 	public void selectorClaseAsientos(Alumno [] alumno) {
 		int i = 0;
 		int [] numero = aulas.getNumero();

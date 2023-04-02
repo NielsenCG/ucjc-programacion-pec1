@@ -1,6 +1,12 @@
 package edu.ucjc.programacion.pec1.NielsenCasado;
 
 public class UtilsColegio {
+	/**
+	 * Función que crea alumnos dependiendo del número de asientos que haya disponibles
+	 * 
+	 * @param asientos
+	 * @return alumnos
+	 */
 	public Alumno[] crearAlumnos (int asientos) {
 		Alumno[] alumnos = new Alumno[asientos];
 		for (int i = 0; i < asientos; i++) {

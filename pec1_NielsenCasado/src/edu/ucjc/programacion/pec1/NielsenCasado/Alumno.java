@@ -2,9 +2,9 @@ package edu.ucjc.programacion.pec1.NielsenCasado;
 
 public class Alumno {
 	
-	private String nombre;
-	private String apellidos;
-	private String dni;
+	private String nombre; // Nombre de los alumnos
+	private String apellidos; // Apellido de los alumnos
+	private String dni; // DNI de los alumnos
 	
 	// Constructor
 	public Alumno(String nombre, String apellidos, String dni) {
