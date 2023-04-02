@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class GestionColegios {
 	
+	// Repositorio: https://github.com/NielsenCG/ucjc-programacion-pec1
+	
 	/**
 	 * Función main que crea un colegio y ejecuta las funciones colegioElegido y selectorClaseAsientos
 	 * 
